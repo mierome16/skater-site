@@ -1,0 +1,325 @@
+html {box-sizing:border-box;}
+*, *::before, *::after {box-sizing:inherit;}
+
+body {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Sk8er-Site/assets/bg.jpg);
+    font-family: "geneva";
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.darker {
+    opacity: 0.3;
+    width: 100%;
+    height: 100%
+}
+ul{
+    padding: 0;
+}
+.container{
+    width:1015px;
+    margin: auto;
+}
+.subscribe {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -80px;
+    box-shadow: 1px solid rgb(115,115,115);
+}
+.subby {
+    position: relative;
+    top: 11px;
+    left: 674px;
+    color: white;
+    font-size: 5pt;
+    text-transform: uppercase;
+
+}
+li {
+    list-style: none;
+}
+
+.socialicons {
+    display:inline-flex;
+    font-size: 45px;
+    color: black;
+}
+#navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -28px;
+    box-shadow: 1px solid rgb(171,170,171)
+}
+#linkref {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 35px;
+    flex-direction:row;
+    text-align: center;
+    background-color: rgb(180,40,46);
+    
+}
+form {
+    display:flex;
+    justify-content: center;
+    margin: 50px 1px;
+}
+#slidepic {
+    width: 1015px;
+    height: 370px;
+    background-image: url(Sk8er-Site/assets/top-image.png);
+    background-position-x: -200px;
+    background-position-y: -160px;
+    border:10px solid white;
+    margin-top: -30px
+}
+.logoimg {
+    height: 200px;
+    position: relative;
+    right: -50px;
+    top: -350px;
+}
+#checks {
+    text-align: center;
+    margin-top: -240px;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-flex;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-flex;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 460px;
+
+}
+article {
+    height: 350px;
+    width: 330px;
+    background-color:white;
+    padding: 7px;
+}
+article>h1 {
+    font-size: 18pt;
+}
+article>h2 {
+    font-size: 11pt;
+    color:rgb(171,170,171);
+}
+article>h3{
+    font-size: 8pt;
+    color: rgb(115,115,115);
+    line-height: 25px;
+}
+.read, .read2 {
+    font-size: 10pt;
+    color:rgb(180,40,46);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+}
+.read2 {
+    position: relative;
+    top: -27px;
+}
+#skaters {
+    width:1015px;
+    height: 450px;
+
+}
+
+#skaters {
+    margin-top: -85px;
+}
+.box1{
+    float: left;
+    width: 330px;
+    height: 205px;
+    margin-right: 10px;
+    border: 5px solid white;
+    background-image: url(Sk8er-Site/assets/sk8er-4.png);
+    background-position-x:-130px;
+}
+.box2{
+    float: left;
+    width: 330px;
+    height: 205px;
+    border: 5px solid white;
+    background-image: url(Sk8er-Site/assets/sk8er-3.png);
+}
+.box3 {
+    float: left;
+    width: 668px;
+    height: 210px;
+    margin-top: 10px;
+    border: 5px solid white;
+    background-image: url(Sk8er-Site/assets/sk8er-1.png);
+    background-position-y: -90px;
+}
+.box4 {
+    float: left;
+    width: 330px;
+    height: 426px;
+    margin-top: -206px;
+    margin-left: 11px;
+    border: 5px solid white;
+    background-image: url(Sk8er-Site/assets/sk8er-2.png);
+    background-position-x: -400px;
+}
+.skatenames {
+    font-family: "futura";
+    font-size:30pt;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.name1 {
+    position: relative;
+    top: -400px;
+    left: -340px;
+}
+.name2 {
+    position: relative;
+    top: -505px;
+}
+.name3 {
+    position: relative;
+    top: -375px;
+    left: -167px;
+}
+.name4 {
+    position: relative;
+    top: -566px;
+    right: -342px;
+
+}
+#boards {
+    margin-top: -900px
+}
+.decks {
+    width: 1015px;
+    height: 300px;
+    justify-content: space-evenly;
+    background-color: white;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center
+}
+#conbox {
+    background-color: rgb(254,254,254);
+    width: 1015px;
+    height: 400px;
+    padding: .5cm;
+    margin-top: 0px;
+}
+.inform {
+    background-color: rgb(254,254,254);
+    width:50%;
+    margin-right: 20px;
+}
+.inform>h1 {
+    font-size: 20pt;
+    color: rgb(82,82,77)
+}
+.inform>h2 {
+    font-size: 11pt;
+    color: rgb(82,82,77);
+    line-height: 27px;
+}
+#lilicons {
+    font-size: 30px;
+    color: rgb(115,115,115);
+}
+#lilicons>ul {
+    display: flex;
+    position: relative;
+    left:0px;
+}
+.enterinfo {
+    background-color: rgb(254,254,254);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1cm;
+    margin-top: 30px;
+}
+.enterinfo>input , button{
+    height: 40px;
+    border: 3px solid rgb(171,170,171);
+}
+.enterinfo>textarea {
+    height: 120px;
+    border: 3px solid rgb(171,170,171);
+}
+.enterinfo>button {
+    background-color: rgb(180,40,46);
+    color: white;
+    font-size: 13pt;
+    width: 50%;
+    justify-content: flex-end;
+    border: none;
+    position: relative;
+    right: -240px;
+}
+::placeholder {
+    font-size: 12pt;
+    color: rgb(171,170,171);
+    text-indent: 5px;
+}
+
+.rarrow {
+    width: 15px;
+    height: 128px;
+    border-top: 66px solid transparent;
+    border-left: 58px solid rgb(180,40,46);
+    border-bottom: 66px solid transparent;
+    position: relative;
+    top: -1351px;
+    left: -62px;
+}
+.rect {
+    background-color: rgb(180,40,46);
+    height: 128px;
+    width: 300px;
+    position: relative;
+    top: -1221px;
+    left: -362px;
+}
+.arrowname>h1 {
+    font-family: "futura";
+    font-size: 23pt;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: -1114px;
+    left: -335px;
+    z-index: 2;
+}
